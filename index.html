@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        height:700px;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .card{
+        display: grid;
+        grid-template-columns: 4fr 9fr;
+        border:2px solid saddlebrown;
+        height:700px;
+        width:600px;
+        background-color: white;
+        box-shadow:2px 2px 1px saddlebrown;
+    }
+    .column1{
+        background-color: aqua;
+        height:700px;
+        width:170px;
+    }
+    .column1 img{
+        border-radius:100%;
+        width:118px;
+        margin:20px 10px 0px 25px;
+    }
+    .name{
+        text-align: center;
+        color:rgba(41, 10, 4, 0.892);
+        font-size: 15px;
+        text-shadow: 2.5px 2.5px 0.5px rgba(206, 206, 201, 0.947);
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    .about{
+        text-align: center;
+        color:rgba(0, 89, 255, 0.608);
+        font-size: 15px;
+        text-shadow: 0.8px 0.8px 0.5px rgba(2, 125, 247, 0.711);
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    .technical-box1{
+        background-color: white;
+        width:150px;
+        padding:15px 10px 25px 0px;
+        margin-left: 5px;
+    }
+    .box p{
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-weight: bold;
+        color:rgba(0, 89, 255, 0.608);
+        font-size: 18px;
+        text-shadow: 1px 1px 0.2px;
+        text-align: center;
+    }
+    .box ul{
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 14px;
+        padding-bottom: 18px;
+    }
+    .box li{
+        list-style: circle;
+        font-size:14px;
+        padding:2px;
+    }
+    .information h4{
+        color:rgba(0, 145, 255, 0.773);
+        text-shadow: 0.5px 0.5px 0.1px;
+    }
+    .information p{
+        font-size: 13px;
+        margin-top: -8px;
+    }
+    .information h5{
+        font-size: 13px;
+        margin-top:-8px;
+        margin-bottom: 15px;
+    }
+    .information li{
+        list-style: none;
+        margin-left: -40px;
+        font-size: 13px;
+    }
+    .information ul{
+        margin-top: -8px;
+    }
+    .declaration{
+        display:flex;
+        justify-content: center;
+        font-size: 13px;
+    }
+    .left{
+        margin-left:-20px;
+    }
+    .right{
+        margin-left:280px;
+    }
+</style>
+<body>
+    <div class="card">
+     <div class="column1">
+        <img src="public/images/men.jpg">
+        <div class="name">
+            <h1>ABHISHAL</h1>
+        </div>
+        <div class="about">
+            <h4>TECHNICAL EXPERTISE</h4>
+        </div>
+        <div class="technical-box1">
+            <div class="box">
+                <p>HTML</p>
+            <ul>
+                <li>SEMANTIC ELEMENTS</li>
+                <li>MULTIMEDIA</li>
+                <li>FORMS & ELEMENTS</li>
+            </ul>
+            </div>
+            <div class="box">
+                <p>CSS</p>
+            <ul>
+                <li>SELECTORS</li>
+                <li>DISPLAY</li>
+                <li>BOX-MODEL</li>
+                <li>ANIMATIONS</li>
+                <li>KEYFRAMES</li>
+                <li>MEDIA QUERIES</li>
+            </ul>
+            </div>
+        </div>
+     </div>
+     <div class="column2">
+        <div class="information">
+            <h4>ABOUT ME</h4>
+            <p>I am ABHISHAL an aspiring REACT and UI Learning fresher who is trying to seek a
+                role to enhance and explore my technical knowledge in your company.</p>
+        </div>
+        <div class="information">
+            <h4>CAREER OBJECTIVE</h4>
+            <p>I want to be a part of renewed organization & to contribute towards the growth of the
+                organization based on my personal capabilities by learning from the new exposure
+                within the structured frame of work.</p>
+        </div>
+       <div class="information">
+        <h4>EDUCATION</h4>
+        <div>
+            <h5>JUNIOR SECONDARY(10th)</h5>
+            <ul>
+                <li>School Name</li>
+                <li>Passing Year: 2000</li>
+                <li>Marks obtained: 00%</li>
+                <li>City, Dist, Stat</li>
+            </ul>
+        </div>
+        <div>
+            <h5>SENIOR SECONDARY (11th,12th)</h5>
+            <ul>
+                <li>School Name</li>
+                <li>Passing Year: 2000</li>
+                <li>Marks obtained: 00%</li>
+                <li>City, Dist, Stat</li>
+            </ul>
+        </div>
+        <div>
+            <h5>BACHELORS OF SCIENCES (B.SC.)</h5>
+            <ul>
+                <li>College Name</li>
+                <li>Passing Year: 2000</li>
+                <li>Marks obtained: 00%</li>
+                <li>City, Dist, Stat</li>
+            </ul>
+        </div>
+       </div>
+       <div class="information">
+        <h4>DECLARATION</h4>
+        <p>I hereby affirm that the information provided in this form is true & correct to the best
+           of my knowledge.</p>
+       </div>
+       <div class="declaration">
+        <div class="left"><p>Date:</p></div>
+       <div class="right"><p>Place:Hyderabad</p>
+        <p>ABHISHAL</p>
+       </div>
+       </div>
+     </div>
+    </div>
+</body>
+</html>
